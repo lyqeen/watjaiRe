@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Prompt','Open Sans', sans-serif;
+    background-color: #3ba6ba;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../image/backgroundBlueDoc01.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+	height: 300px;
+    padding-top: 2.5em;
+}
+
+button {
+	font-family: 'Prompt','Open Sans', sans-serif;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+  	padding: 5px 78px;
+
+    outline:none;
+    border: 1px solid white;
+   margin-top: 2em;
+  	
+    color: white;
+    font-size: 20pt;
+     transition: all 0.3s ease 0s;
+}
+
+button:hover {
+     background:white;
+     color:black; 
+      transition: all 0.3s ease 0s;
+}
+
+
+.wrapper {
+    text-align: center;
+}
+
